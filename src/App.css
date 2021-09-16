@@ -1,0 +1,69 @@
+body {
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #80ff72 0%, #7ee8fa 74%);  
+  color: #def79a;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue;
+  text-align: center;
+}
+.workouts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  background-color: #5c6cc9;
+  align-items: center;
+  justify-content: center;
+  padding: 85px;
+  margin: 35px;
+  border: 5px groove silver;
+  border-radius: 10px;
+}
+.list{
+  border: 5px groove #def79a;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px 80px 30px 80px;
+  box-shadow: #def79a;
+}
+button {
+  background-color: #def79a;
+  border: 2px groove silver;
+  border-radius: 7px;
+  color: #5c6cc9;
+  margin: 15px;
+}
+button:hover {
+  background-color: white;
+}
+h1 {
+  color: #5c6cc9;
+  font-size: 70px;
+  -webkit-text-stroke: 2.5px #def79a;
+  text-shadow:
+  0 0 7px #def79a,
+  0 0 10px #def79a,
+  0 0 21px #def79a,
+  0 0 42px #def79a,
+  0 0 82px #def79a,
+  0 0 92px #def79a,
+  0 0 102px #def79a,
+  0 0 151px #def79a;
+}
+h3 {
+  color: #5c6cc9;
+  font-size: 45px;
+  -webkit-text-stroke: 1.5px #def79a;
+  margin-bottom: 2px;
+}
+p {
+  /* background-color: white; */
+  font-size: 65px;
+  width: fit-content;
+  margin: 0 auto;
+}
