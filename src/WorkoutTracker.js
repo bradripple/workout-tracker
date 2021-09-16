@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import DeadliftTracker from './DeadliftTracker';
 import LungeTracker from './LungeTracker';
 import SquatTracker from './SquatTracker';
